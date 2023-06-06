@@ -1,9 +1,11 @@
 export interface User {
-    id:number,
-    nume:string,
-    prenume:string,
+    id: number,
+    nume: string,
+    prenume: string,
+    datanastere:Date, //string
     email:string,
-    datanastere:Date,
+    telefon: string,
     dataadaugare?:Date,
-    telefon:string,
+    actiune?:string,
+    'users'?:any
 }
