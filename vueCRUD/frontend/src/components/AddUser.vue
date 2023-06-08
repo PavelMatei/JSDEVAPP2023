@@ -74,13 +74,15 @@
           id: null,
           nume: "",
           prenume: "",
-          email: ''
+          email: '',
+          telefon: '',
+          datanastere: ''
         },
         submitted: false
       };
     },
     methods: {
-      seveUser() {
+      saveUser() {
         var data = {
           nume: this.user.nume,
           prenume: this.user.prenume,
